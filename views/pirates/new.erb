@@ -1,11 +1,33 @@
 <h1>Make your form here</h1>
 
 <form action="/" method="post">
-  Student Name: <input type="text" name="student[name]">
-  Student Grade: <input type="text" name="student[grade]">
-  Course Name: <input type="text" name="student[courses][][name]">
+  Pirate Name: <input type="text" name="student[name]">
+  Pirate Weight: <input type="text" name="student[grade]">
+  Pirate Height: <input type="text" name="student[courses][][name]">
   Course Topic: <input type="text" name="student[courses][][topic]">
   Course Name: <input type="text" name="student[courses][][name]">
   Course Topic: <input type="text" name="student[courses][][topic]">
   <input type="submit">
 </form>
+
+
+#Data structure for reference
+#params = {
+#  "pirate" => {
+#    "name" => "Vic",
+#    "weight" => "12",
+#    "height" => "5",
+#    "ships" => [
+#      {
+#        "name" => "The Flying Dutchman",
+#        "type" => "Haunted",
+#        "booty_attributes" => "X"
+#      },
+#      {
+#         "name" => "The Flying Dutchman",
+#        "type" => "Haunted",
+#        "booty_attributes" => "X"
+#      }
+#    ]
+#  }
+#}

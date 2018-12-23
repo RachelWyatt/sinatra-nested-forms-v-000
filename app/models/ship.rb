@@ -6,11 +6,11 @@ class Ship
   def initialize(name, type, booty_attributes)
     @name = name
     @type = type
-    @booty_attributes = booty_attributes 
+    @booty_attributes = booty_attributes
     @@all << self
   end
 
-  def self.all 
-    @@all 
+  def self.all
+    @@all
   end
 end
